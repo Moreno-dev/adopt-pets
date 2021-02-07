@@ -1,0 +1,19 @@
+.container{
+    .row {
+        .col{
+            display: flex;
+            justify-content: center;
+            .card {
+                width: 500px;
+                text-align: center;
+                .card-body{
+                    padding: 30px;
+                }
+                .row {
+                    justify-content: space-between;
+                }
+            }
+
+        }
+    }
+}
